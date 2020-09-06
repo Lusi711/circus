@@ -32,6 +32,7 @@ public class Circus {
                 System.out.println("Ignoring low value item: " + a.getValue());
                 continue;
             }
+
             total += a.getValue();
             System.out.println("Adding item value: " + a.getValue());
             // some
