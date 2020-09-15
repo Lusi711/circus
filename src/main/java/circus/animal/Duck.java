@@ -11,11 +11,6 @@ public class Duck extends Bird {
         return "I'm " + name + ". I am a Duck!";
     }
 
-    @Override
-    public int getValue() {
-        return 10;
-    }
-
     public void swim() {
         System.out.println("I'm swimming...");
     }
